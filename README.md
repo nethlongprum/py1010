@@ -1,1 +1,1 @@
-# py1010
+# kommer senere i løpet av studiet
