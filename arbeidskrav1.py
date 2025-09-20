@@ -22,7 +22,7 @@ utgift_bomavgift_bensinbil = bomavgift_bensinbil*bilbruk
 trafikkforsikringsavgift_år = trafikkforsikringsavgift*365
 
 #printer ut totalkostnaden
-#ganger med forsikring
+#legger til forsikring
 total_utgift_bensinbil = utgift_drivstoff_bensinbil+utgift_bomavgift_bensinbil+trafikkforsikringsavgift_år+forsikring_bensinbil
 print(total_utgift_bensinbil)
 
@@ -38,7 +38,7 @@ utgift_bomavgift_elbil = bomavgift_elbil*bilbruk
 trafikkforsikringsavgift_år = trafikkforsikringsavgift*365
 
 #printer ut totalkostnaden
-#ganger med forsikring
+#legger til forsikring
 total_utgift_elbil = utgift_drivstoff_elbil+utgift_bomavgift_elbil+trafikkforsikringsavgift_år+forsikring_elbil
 print(total_utgift_elbil)
 
