@@ -17,13 +17,13 @@ bilbruk = 10000 #km/år
 #Her regner jeg ut drivstoffbruk til bensinbil
 #Deretter bomavgift for bensinbil
 #Sist summerer totalutgiftene til bensinbil med trafikkforsikringsavgift ganger 365 dager
-utgift_drivstoff_bensinbil = drivstoffbruk_bensinbil*bilbruk
-utgift_bomavgift_bensinbil = bomavgift_bensinbil*bilbruk
-trafikkforsikringsavgift_år = trafikkforsikringsavgift*365
+utgift_drivstoff_bensinbil = drivstoffbruk_bensinbil * bilbruk
+utgift_bomavgift_bensinbil = bomavgift_bensinbil * bilbruk
+trafikkforsikringsavgift_år = trafikkforsikringsavgift * 365
 
 #printer ut totalkostnaden
 #legger til forsikring
-total_utgift_bensinbil = utgift_drivstoff_bensinbil+utgift_bomavgift_bensinbil+trafikkforsikringsavgift_år+forsikring_bensinbil
+total_utgift_bensinbil = utgift_drivstoff_bensinbil + utgift_bomavgift_bensinbil + trafikkforsikringsavgift_år + forsikring_bensinbil
 print(total_utgift_bensinbil)
 
 
@@ -33,12 +33,11 @@ print(total_utgift_bensinbil)
 #Her regner jeg ut drivstoffbruk til elbil med strømpris
 #Deretter bomavgift
 #Sist summerer totalutgiftene til elbil med trafikkforsikring ganger 365 dager
-utgift_drivstoff_elbil = drivstoffbruk_elbil*drivstoffbruk_strømpris*bilbruk
-utgift_bomavgift_elbil = bomavgift_elbil*bilbruk
-trafikkforsikringsavgift_år = trafikkforsikringsavgift*365
-
+utgift_drivstoff_elbil = drivstoffbruk_elbil * drivstoffbruk_strømpris * bilbruk
+utgift_bomavgift_elbil = bomavgift_elbil * bilbruk
+trafikkforsikringsavgift_år = trafikkforsikringsavgift * 365
 #printer ut totalkostnaden
 #legger til forsikring
-total_utgift_elbil = utgift_drivstoff_elbil+utgift_bomavgift_elbil+trafikkforsikringsavgift_år+forsikring_elbil
+total_utgift_elbil = utgift_drivstoff_elbil + utgift_bomavgift_elbil + trafikkforsikringsavgift_år + forsikring_elbil
 print(total_utgift_elbil)
 
