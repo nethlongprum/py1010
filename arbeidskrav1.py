@@ -36,6 +36,7 @@ print(total_utgift_bensinbil)
 utgift_drivstoff_elbil = drivstoffbruk_elbil * drivstoffbruk_strømpris * bilbruk
 utgift_bomavgift_elbil = bomavgift_elbil * bilbruk
 trafikkforsikringsavgift_år = trafikkforsikringsavgift * 365
+
 #printer ut totalkostnaden
 #legger til forsikring
 total_utgift_elbil = utgift_drivstoff_elbil + utgift_bomavgift_elbil + trafikkforsikringsavgift_år + forsikring_elbil
