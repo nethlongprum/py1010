@@ -1,1 +1,2 @@
-# kommer senere i løpet av studiet
+# programmering i arbeidskrav er i Python
+# arbeidskrav og prosjektoppgave i py1010
