@@ -1,2 +1,1 @@
-# programmering i arbeidskrav er i Python
-# arbeidskrav og prosjektoppgave i py1010
+# Arbeidskrav og prosjektoppgave i py1010 er i Python
