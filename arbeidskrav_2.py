@@ -9,14 +9,6 @@ alder = int(input('hvilket år er du født?')) #Skriv inn årstall
 print('Alderen din er:', år - alder) #printer ut årstall til skjerm og regner ut alder på skjerm
 
 
-# In[ ]:
-
-
-
-
-
-# In[3]:
-
 
 import math 
 pizza = 0.25
@@ -26,22 +18,12 @@ opprundet1 = math.ceil(antall_elever_pizza) # tallet må rundes opp til heltall
 print('Du må handle:', opprundet1, 'pizza') #printer ut hvor mye pizza som du må handle og runder opp til nærmeste heltall
 
 
-# In[ ]:
-
-
-
-
-
-# In[3]:
-
 
 import numpy as np
 v_grad = float(input('Skriv inn gradtall:'))
 v_rad = v_grad*np.pi/180
 print(f'graden blir til: {v_rad:0.2f} radianer') #Her brukes stringformatering
 
-
-# In[232]:
 
 
 data = {
@@ -54,8 +36,6 @@ land = str(input("Skriv inn et land: "))
 x = data[land]
 print(x[0], 'er hovedstaden i',land,'og det er', x[1],' mill. innbyggere i', x[0])
 
-
-# In[ ]:
 
 
 data = {
@@ -70,14 +50,6 @@ innbyggertall = str(input(" Skriv inn nytt innbyggertall: ")) #Her skriver bruke
 data[land] = [hovedstad, innbyggertall]
 print(data)
 
-
-# In[ ]:
-
-
-
-
-
-# In[9]:
 
 
 import math
@@ -104,14 +76,6 @@ print (f'Omkrets og areal av figuren = {omkrets:0.2f}, {areal:0.2f}  ') #Her bru
        
 
 
-# In[ ]:
-
-
-
-
-
-# In[7]:
-
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -126,25 +90,24 @@ x = np.linspace(-10, 10, 200)
 akse(x)
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
+
+
+
 
 
 
